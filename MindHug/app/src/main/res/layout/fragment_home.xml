@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".ui.home.HomeFragment"
+    android:background="#B0E0E6">
+
+    <TextView
+        android:id="@+id/text_home"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="8dp"
+        android:layout_marginEnd="8dp"
+        android:textAlignment="center"
+        android:textSize="20sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:background="#FFF2EC">
+        <ImageView
+            android:layout_width="36dp"
+            android:layout_height="36dp"
+            android:src="@drawable/woman"
+            android:layout_margin="8dp"
+            android:contentDescription="TODO" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:padding="16dp"
+            android:text="Hey! i'm a mind therapist"
+            android:textStyle="bold" />
+    </LinearLayout>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="8dp"
+        android:text="Let's talk about our mental health!"
+        android:textStyle="bold"
+        android:background="#FFF2EC"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Many mental health struggles involve distressing, but inherently flawed, thoughts or predictions that influence behavior. For example, if you get anxious when you’re in crowds and thus actively avoid them, you might tell yourself that if you tried to go to a crowded place—like a sports game or concert—you’d panic, do something to embarrass yourself, and wouldn’t enjoy it. That belief then reinforces your avoidance. "
+        android:padding="8dp"
+        android:background="#FFF2EC"/>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:background="#DCEEEA">
+        <ImageView
+            android:layout_width="36dp"
+            android:layout_height="36dp"
+            android:src="@drawable/man"
+            android:layout_margin="8dp"
+            android:contentDescription="TODO" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:padding="8dp"
+            android:text="Hey! Here's a Yoga Expert."
+            android:textStyle="bold" />
+    </LinearLayout>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="8dp"
+        android:text="Today's Yoga tip is about Shavasana!"
+        android:textStyle="bold"
+        android:background="#DCEEEA"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="In Savasana, it's especially useful to have a partner check your physical alignment. One of the most difficult parts of the body to align on your own is your head. Have your partner sit at your head and observe its position relative to your shoulders. It's common for students' heads to be tilted or turned to one side or the other. The partner should gently cradle your head in his/her hands and draw the base of the skull away from the back of the neck, lengthening the shorter side of the neck, so that both ears are equidistant from the shoulders. Then your partner can lay your head back down on the floor, making sure that the tip of your nose is pointing directly toward the ceiling."
+        android:padding="8dp"
+        android:background="#DCEEEA"/>
+
+
+</LinearLayout>
